@@ -1,0 +1,22 @@
+@mixin title-large-text {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1.1;
+
+  @media(max-width: 900px) {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: rgb(199, 199, 45);
+  }
+}
+
+@mixin normal-text {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.4;
+
+  @media(max-width: 900px) {
+    color: lightseagreen;
+  }
+}
